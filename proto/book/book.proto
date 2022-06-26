@@ -1,0 +1,10 @@
+syntax = "proto3";
+package book.book;
+option go_package = "book/x/book/types";
+
+message Book {
+  string creator = 1;
+  uint64 id = 2;
+  string title = 3;
+  string author = 4;
+}
