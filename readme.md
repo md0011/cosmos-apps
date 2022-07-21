@@ -4,7 +4,7 @@
 ## Get started
 
 ```
-ignite chain serve
+ignite chain serve max
 ```
 
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
